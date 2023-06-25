@@ -1,7 +1,12 @@
 import React from 'react';
 
-class Section extends React.Component {
-
-}
+const Section = ({ title, children }) => {
+  return (
+    <>
+      <p>{title}</p>
+      {children}
+    </>
+  );
+};
 
 export default Section;
